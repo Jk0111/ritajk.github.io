@@ -19,3 +19,21 @@ nav {
   padding: 5px;
 }
 
+@media only screen and (max-width: 600px) {
+  b {
+    font-size: 15px;
+  }
+  
+  i {
+    font-size: 5px;
+  }
+
+  nav {
+    font-size: 5px;
+  }
+  .homeLink {
+    padding: 3px;
+  }
+  
+}
+
