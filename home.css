@@ -54,3 +54,11 @@ hr {
   background-color: whitesmoke;
 }
 
+.homeLink{
+  text-decoration: none;
+}
+
+.homeLink:hover {
+  color: red;
+}
+
