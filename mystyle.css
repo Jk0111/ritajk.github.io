@@ -1,0 +1,20 @@
+header{
+  background-color: #dddddd;
+  position: fixed;
+  width: 99.2%;
+  margin-top: -20px;
+}
+
+b {
+  font-family: 'Brush Script MT';
+  font-size: 25px;
+}
+
+i {
+  font-size: 10px;
+}
+
+nav {
+  float: right;
+}
+

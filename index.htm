@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>
+      My Portfolio
+    </title>
+
+    <link rel="stylesheet" href="mystyle.css">
+
+    <link rel="stylesheet" href="home.css">
+
+    <link rel="stylesheet" href="about.css">
+
+    <link rel="stylesheet" href="projects.css">
+
+    <link rel="stylesheet" href="contact.css">
+
+    <link rel="stylesheet" href="resume.css">
+
+    <link rel="stylesheet" href="footer.css">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <script>
+      function validateForm() {
+        let x = document.forms["myForm"] ["email"].value;
+        if (x == "") {
+          alert("Email must be filled out");
+          return false;
+        }
+      }
+    </script>
+
+  </head>
+
+  <body>
+
+    <header>
+      <b>RITA JK</b> <i>WEB DEVELOPER AT MUBS</i>
+
+      <nav>
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+        <a href="#resume">Resume</a>
+      </nav>
+
+    </header>
+
+    <!--              HOME                    -->
+ 
+    <div id="divHome">
+    <p id="home"></p>
+
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+
+    <hr>
+
+    <h1 id="welcome">WELCOME</h1>
+    <p id="career1">I am Rita JK, a Web Developer</p>
+    <p id="career2">I HAND-CRAFT CREATIVE WEB SOLUTIONS WITH SOLID STRATEGIES,<br>
+    USER-CENTERED DESIGNS & POWERFUL TECHNOLOGIES</p>
+
+    <hr>
+
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+
+    </div>
+
+    <!--               ABOUT            -->
+
+    <p id="about"></p>
+
+    <div id="divAbout">
+
+      <p>&nbsp;</p>
+      <p>&nbsp;</p>
+      <p>&nbsp;</p>
+      <p>&nbsp;</p>
+
+    <h1>ABOUT ME</h1>
+
+    <p id="role">Highly motivated front-end developer from Kampala, Uganda.<br>
+      I love building tools that are user-friendly, simple and delightful.<br>
+      Unique websites that convert visitors into customers and help your business grow.
+    </p>
+
+    <p id="centerImage">
+    <img src="photo2.jpg" alt="myPhoto" width="300" height="300" max-width:100%;>
+    </p>
+    
+    <p id="myName">
+      Rita JK
+    </p>
+
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+
+
+    </div>
+
+    <!--                       PROJECTS                 -->
+
+    <p id="projects"></p>
+
+    <div id="divProjects">
+
+      <p>&nbsp;</p>
+      <p>&nbsp;</p>
+
+      <h1>PROJECTS</h1>
+
+      <hr>
+
+      <ul>
+
+        <li>Student Grading System</li>
+
+        <li>Car-Pool Savings Calculator</li>
+
+        <li>Enforcing Privacy with Cryptography Software</li>
+
+        <li>BMI Calculator</li>
+
+        <li>Guess the Number Game</li>
+
+        <li>Calculator</li>
+
+        <li>Library Management System</li>
+
+        <li>E-commerce website using Wordpress</li>
+      </ul>
+
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+
+    </div>
+
+    <!--                  CONTACT                        -->
+
+    <p id="contact"></p>
+
+    <div id="divContact">
+
+      <p>&nbsp;</p>
+      <p>&nbsp;</p>
+
+      <h1>GET IN TOUCH</h1>
+
+      <p class="center">&#128222; Phone: +256&nbsp;756&nbsp;89&nbsp;467</p>
+      <p class="center">&#128231;Email:ritakj@gmail.com</p>
+      
+      <form name="myForm" onsubmit="return validateForm()">
+        <input type="text" name="fname" placeholder="YOUR NAME*" required>
+        <br><br>
+        <input type="email" name="email" placeholder="YOUR EMAIL*">
+        <br><br>
+        <input type="number" name="number" placeholder="YOUR NUMBER*">
+        <br><br>
+        <textarea name="message" rows="10" cols="30" placeholder="YOUR MESSAGE*"></textarea>
+        <br><br>
+        <input type="submit" value="SUBMIT">
+        
+      </form>
+
+      <p>&nbsp;</p>
+      <p>&nbsp;</p>
+
+    </div>
+
+    <!--               RESUME                  -->
+
+    <p id="resume"></p>
+
+    <div style="background-color: whitesmoke; margin-top: -40px;">
+
+      <p>&nbsp;</p>
+      <p>&nbsp;</p>
+
+      <h1>RESUME</h1>
+      
+      <p style="text-align: center;">    
+        <a href="RitaKJResume.pdf" download="RitaKJ RESUME">
+        <img src="resume.jpg" alt="RitaKJ Resume" width="200" height="200">
+        <p style="text-align: center;">Download Resume</p>
+        </a>
+      </p>
+
+      <p>&nbsp;</p>
+      <p>&nbsp;</p>
+      <p>&nbsp;</p>
+      <p>&nbsp;</p>
+      <p>&nbsp;</p>
+      <p>&nbsp;</p>
+
+    </div>
+
+    <!-- Adding a Footer -->
+
+    <footer>
+          <p>Author: Rita JK<br>
+            &#128231;
+          <a href="mailto:ritajk@gmail.com">Rita JK Email</a></p>
+          <p>&#128222; +256 45 657 12 456</p>
+          
+    </footer>
+
+    <script src="script.js"></script>
+    
+  </body>
+</html>

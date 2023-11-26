@@ -1,0 +1,26 @@
+h1 {
+  text-align: center;
+  font-size: 60px;
+  color: grey;
+}
+
+.center {
+  text-align: center;
+}
+
+form {
+  text-align: center;
+}
+
+input {
+  width: 20%;
+}
+
+textarea {
+  width: 20%;
+}
+
+#divContact {
+  background-color: whitesmoke;
+  margin-top: -40px;
+}

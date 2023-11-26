@@ -1,0 +1,53 @@
+
+html {
+  scroll-behavior: smooth;
+}
+
+#welcome {
+  text-align: center;
+  font-size: 60px;
+  animation: textAnimation 5s 1s ease-in-out infinite;
+}
+
+@keyframes textAnimation {
+  0% {
+    color: red;
+  }
+
+  25% {
+    color: hotpink;
+  }
+
+  50% {
+    color: orange;
+  }
+
+  100% {
+    color: green;
+  }
+}
+
+#career1 {
+  text-align: center;
+  font-size: 30px;
+  color: grey;
+}
+
+hr {
+  width: 50%;
+}
+
+#career2 {
+  text-align: center;
+  font-size: 40px;
+  color: blue;
+}
+
+
+#divHome {
+  background-image: url('photo1.jpg');
+  background-repeat: no-repeat;
+  background-position: right top;
+  background-color: whitesmoke;
+}
+
