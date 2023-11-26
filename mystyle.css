@@ -29,15 +29,11 @@ nav {
   }
 
   nav {
-    font-size: 3px;
+    font-size: 5px;
   }
   
   .homeLink {
     padding: 3px;
-  }
-
-  #role {
-    font-size: 10px;
   }
 }
 
