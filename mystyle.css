@@ -34,6 +34,9 @@ nav {
   .homeLink {
     padding: 3px;
   }
-  
+
+  #role {
+    font-size: 10px;
+  }
 }
 
